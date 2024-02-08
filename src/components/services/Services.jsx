@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import "./services.scss";
-import { animate, motion, useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 
 const variants = {
   initial: {
@@ -29,11 +29,10 @@ const Services = () => {
       className="services"
       variants={variants}
       initial="initial"
-      //   animate="animate"
-      //   whileInView="animate"
-
-      animate={"animate"}
+      // animate="animate"
+      // whileInView="animate"
       ref={ref}
+      animate={"animate"}
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
@@ -46,13 +45,12 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Idea
+            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
-            Business.
+            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
           </h1>
           <button>WHAT WE DO?</button>
         </div>
@@ -64,10 +62,10 @@ const Services = () => {
         >
           <h2>Branding</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            ex commodi laudantium minus quas, soluta ipsam quos doloribus
-            dolorem explicabo, enim veritatis vero velit nesciunt at autem quod,
-            obcaecati voluptas.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
+            animi! Ad nam pariatur assumenda quae mollitia libero repellat
+            explicabo maiores?
           </p>
           <button>Go</button>
         </motion.div>
@@ -77,10 +75,10 @@ const Services = () => {
         >
           <h2>Branding</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            ex commodi laudantium minus quas, soluta ipsam quos doloribus
-            dolorem explicabo, enim veritatis vero velit nesciunt at autem quod,
-            obcaecati voluptas.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
+            animi! Ad nam pariatur assumenda quae mollitia libero repellat
+            explicabo maiores?
           </p>
           <button>Go</button>
         </motion.div>
@@ -90,10 +88,10 @@ const Services = () => {
         >
           <h2>Branding</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            ex commodi laudantium minus quas, soluta ipsam quos doloribus
-            dolorem explicabo, enim veritatis vero velit nesciunt at autem quod,
-            obcaecati voluptas.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
+            animi! Ad nam pariatur assumenda quae mollitia libero repellat
+            explicabo maiores?
           </p>
           <button>Go</button>
         </motion.div>
@@ -103,10 +101,10 @@ const Services = () => {
         >
           <h2>Branding</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            ex commodi laudantium minus quas, soluta ipsam quos doloribus
-            dolorem explicabo, enim veritatis vero velit nesciunt at autem quod,
-            obcaecati voluptas.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
+            animi! Ad nam pariatur assumenda quae mollitia libero repellat
+            explicabo maiores?
           </p>
           <button>Go</button>
         </motion.div>
